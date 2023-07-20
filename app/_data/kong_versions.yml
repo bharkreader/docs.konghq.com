@@ -415,3 +415,6 @@
   version: preview
   release: dev
   branch: master
+- edition: gateway-operator
+  version: 0.5.0
+  release: 0.5.x

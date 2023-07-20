@@ -14,6 +14,7 @@
           {% elsif include.edition == 'kubernetes-ingress-controller' %}{{site.kic_product_name}}
           {% elsif include.edition == 'gateway-oss' %}{{site.ce_product_name}}
           {% elsif include.edition == 'gateway' %}{{site.base_gateway}}
+          {% elsif include.edition == 'gateway-operator' %}{{site.kgo_product_name}}
           {% elsif include.edition == 'getting-started-guide' %}Get Started with Kong Gateway
           {% elsif include.edition == 'contributing' %}Contribution guidelines
           {% endif %}

@@ -138,6 +138,11 @@ defaults:
       layout: "docs-v2"
 
   - scope:
+      path: "gateway-operator"
+    values:
+      layout: "docs-v2"
+
+  - scope:
       path: "gateway/2.6.x/"
     values:
       layout: "docs-v2"
@@ -205,6 +210,7 @@ konnect_saas: Kong Konnect
 package_name: Kong Konnect
 company_name: Kong Inc.
 mesh_product_name: Kong Mesh
+kgo_product_name: Kong Gateway Operator
 # Mesh specific config
 mesh_namespace: kong-mesh-system
 mesh_cp_name: kong-mesh-control-plane
