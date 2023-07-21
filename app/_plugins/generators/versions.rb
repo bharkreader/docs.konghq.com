@@ -56,7 +56,7 @@ module Jekyll
       site.data['kong_versions_kic'] = kic_versions
       site.data['kong_versions_contributing'] = contributing_versions
       site.data['kong_versions_gateway'] = gateway_versions
-      site.data['kong_versions_gateway_operator'] = kgo_versions
+      site.data['kong_versions_kgo'] = kgo_versions
 
       # Retrieve the latest version and put it in `site.data.kong_latest.version`
 
